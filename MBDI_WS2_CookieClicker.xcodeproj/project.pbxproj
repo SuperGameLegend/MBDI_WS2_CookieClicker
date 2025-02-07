@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E7A9DFC62D56441500372A1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7A9DFAD2D56441400372A1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7A9DFB42D56441400372A1E;
+			remoteInfo = MBDI_WS2_CookieClicker;
+		};
+		E7A9DFD02D56441500372A1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7A9DFAD2D56441400372A1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7A9DFB42D56441400372A1E;
+			remoteInfo = MBDI_WS2_CookieClicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E7A9DFB52D56441400372A1E /* MBDI_WS2_CookieClicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBDI_WS2_CookieClicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7A9DFC52D56441500372A1E /* MBDI_WS2_CookieClickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBDI_WS2_CookieClickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7A9DFCF2D56441500372A1E /* MBDI_WS2_CookieClickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBDI_WS2_CookieClickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E7A9DFB72D56441400372A1E /* MBDI_WS2_CookieClicker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MBDI_WS2_CookieClicker;
+			sourceTree = "<group>";
+		};
+		E7A9DFC82D56441500372A1E /* MBDI_WS2_CookieClickerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MBDI_WS2_CookieClickerTests;
+			sourceTree = "<group>";
+		};
+		E7A9DFD22D56441500372A1E /* MBDI_WS2_CookieClickerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MBDI_WS2_CookieClickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7A9DFB22D56441400372A1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A9DFC22D56441500372A1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A9DFCC2D56441500372A1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7A9DFAC2D56441400372A1E = {
+			isa = PBXGroup;
+			children = (
+				E7A9DFB72D56441400372A1E /* MBDI_WS2_CookieClicker */,
+				E7A9DFC82D56441500372A1E /* MBDI_WS2_CookieClickerTests */,
+				E7A9DFD22D56441500372A1E /* MBDI_WS2_CookieClickerUITests */,
+				E7A9DFB62D56441400372A1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7A9DFB62D56441400372A1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7A9DFB52D56441400372A1E /* MBDI_WS2_CookieClicker.app */,
+				E7A9DFC52D56441500372A1E /* MBDI_WS2_CookieClickerTests.xctest */,
+				E7A9DFCF2D56441500372A1E /* MBDI_WS2_CookieClickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7A9DFB42D56441400372A1E /* MBDI_WS2_CookieClicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7A9DFD92D56441500372A1E /* Build configuration list for PBXNativeTarget "MBDI_WS2_CookieClicker" */;
+			buildPhases = (
+				E7A9DFB12D56441400372A1E /* Sources */,
+				E7A9DFB22D56441400372A1E /* Frameworks */,
+				E7A9DFB32D56441400372A1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E7A9DFB72D56441400372A1E /* MBDI_WS2_CookieClicker */,
+			);
+			name = MBDI_WS2_CookieClicker;
+			packageProductDependencies = (
+			);
+			productName = MBDI_WS2_CookieClicker;
+			productReference = E7A9DFB52D56441400372A1E /* MBDI_WS2_CookieClicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7A9DFC42D56441500372A1E /* MBDI_WS2_CookieClickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7A9DFDC2D56441500372A1E /* Build configuration list for PBXNativeTarget "MBDI_WS2_CookieClickerTests" */;
+			buildPhases = (
+				E7A9DFC12D56441500372A1E /* Sources */,
+				E7A9DFC22D56441500372A1E /* Frameworks */,
+				E7A9DFC32D56441500372A1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7A9DFC72D56441500372A1E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E7A9DFC82D56441500372A1E /* MBDI_WS2_CookieClickerTests */,
+			);
+			name = MBDI_WS2_CookieClickerTests;
+			packageProductDependencies = (
+			);
+			productName = MBDI_WS2_CookieClickerTests;
+			productReference = E7A9DFC52D56441500372A1E /* MBDI_WS2_CookieClickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E7A9DFCE2D56441500372A1E /* MBDI_WS2_CookieClickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7A9DFDF2D56441500372A1E /* Build configuration list for PBXNativeTarget "MBDI_WS2_CookieClickerUITests" */;
+			buildPhases = (
+				E7A9DFCB2D56441500372A1E /* Sources */,
+				E7A9DFCC2D56441500372A1E /* Frameworks */,
+				E7A9DFCD2D56441500372A1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7A9DFD12D56441500372A1E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E7A9DFD22D56441500372A1E /* MBDI_WS2_CookieClickerUITests */,
+			);
+			name = MBDI_WS2_CookieClickerUITests;
+			packageProductDependencies = (
+			);
+			productName = MBDI_WS2_CookieClickerUITests;
+			productReference = E7A9DFCF2D56441500372A1E /* MBDI_WS2_CookieClickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7A9DFAD2D56441400372A1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					E7A9DFB42D56441400372A1E = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					E7A9DFC42D56441500372A1E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E7A9DFB42D56441400372A1E;
+					};
+					E7A9DFCE2D56441500372A1E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E7A9DFB42D56441400372A1E;
+					};
+				};
+			};
+			buildConfigurationList = E7A9DFB02D56441400372A1E /* Build configuration list for PBXProject "MBDI_WS2_CookieClicker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7A9DFAC2D56441400372A1E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E7A9DFB62D56441400372A1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7A9DFB42D56441400372A1E /* MBDI_WS2_CookieClicker */,
+				E7A9DFC42D56441500372A1E /* MBDI_WS2_CookieClickerTests */,
+				E7A9DFCE2D56441500372A1E /* MBDI_WS2_CookieClickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7A9DFB32D56441400372A1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A9DFC32D56441500372A1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A9DFCD2D56441500372A1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7A9DFB12D56441400372A1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A9DFC12D56441500372A1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A9DFCB2D56441500372A1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7A9DFC72D56441500372A1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7A9DFB42D56441400372A1E /* MBDI_WS2_CookieClicker */;
+			targetProxy = E7A9DFC62D56441500372A1E /* PBXContainerItemProxy */;
+		};
+		E7A9DFD12D56441500372A1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7A9DFB42D56441400372A1E /* MBDI_WS2_CookieClicker */;
+			targetProxy = E7A9DFD02D56441500372A1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E7A9DFD72D56441500372A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7A9DFD82D56441500372A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7A9DFDA2D56441500372A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MBDI_WS2_CookieClicker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emre.MBDI-WS2-CookieClicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7A9DFDB2D56441500372A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MBDI_WS2_CookieClicker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emre.MBDI-WS2-CookieClicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E7A9DFDD2D56441500372A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emre.MBDI-WS2-CookieClickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MBDI_WS2_CookieClicker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MBDI_WS2_CookieClicker";
+			};
+			name = Debug;
+		};
+		E7A9DFDE2D56441500372A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emre.MBDI-WS2-CookieClickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MBDI_WS2_CookieClicker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MBDI_WS2_CookieClicker";
+			};
+			name = Release;
+		};
+		E7A9DFE02D56441500372A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emre.MBDI-WS2-CookieClickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MBDI_WS2_CookieClicker;
+			};
+			name = Debug;
+		};
+		E7A9DFE12D56441500372A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emre.MBDI-WS2-CookieClickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MBDI_WS2_CookieClicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7A9DFB02D56441400372A1E /* Build configuration list for PBXProject "MBDI_WS2_CookieClicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7A9DFD72D56441500372A1E /* Debug */,
+				E7A9DFD82D56441500372A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7A9DFD92D56441500372A1E /* Build configuration list for PBXNativeTarget "MBDI_WS2_CookieClicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7A9DFDA2D56441500372A1E /* Debug */,
+				E7A9DFDB2D56441500372A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7A9DFDC2D56441500372A1E /* Build configuration list for PBXNativeTarget "MBDI_WS2_CookieClickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7A9DFDD2D56441500372A1E /* Debug */,
+				E7A9DFDE2D56441500372A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7A9DFDF2D56441500372A1E /* Build configuration list for PBXNativeTarget "MBDI_WS2_CookieClickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7A9DFE02D56441500372A1E /* Debug */,
+				E7A9DFE12D56441500372A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7A9DFAD2D56441400372A1E /* Project object */;
+}
