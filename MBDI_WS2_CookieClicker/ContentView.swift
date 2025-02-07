@@ -12,7 +12,7 @@ struct ContentView: View {
         VStack {
             Text("Cookie Clicker").font(.largeTitle)
             Button( action: {
-                print("Clicked!")
+                print("Clicked on the cookie!")
             },
             label:{
                 Image("cookie").resizable(resizingMode: .stretch).aspectRatio(contentMode: .fit)
