@@ -8,11 +8,13 @@
 import SwiftUI
 
 struct StoreView : View{
+    @Binding var timesClicked: Int
     var body: some View {
-        Text("Store")
+
+        Text(String(timesClicked))
     }
 }
 
 #Preview {
-    StoreView()
+    StoreView(timesClicked: .constant(10))
 }

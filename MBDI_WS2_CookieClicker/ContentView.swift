@@ -9,27 +9,30 @@ import SwiftUI
 
 struct ContentView: View {
     @State var timesClicked = 0
+    var cookie =             Image("cookie").resizable(resizingMode: .stretch)
     var body: some View {
         VStack {
             Text("Cookie Clicker").font(.largeTitle)
             Button( action: {
                 print("Clicked the cookie!")
                 timesClicked += 1
+                
             },
             label:{
-                Image("cookie").resizable(resizingMode: .stretch).aspectRatio(contentMode: .fit)
+                cookie.aspectRatio(contentMode: .fit)
+    
             }
             )
             Text("You clicked the coockie " + String(timesClicked) + " times!")
             
             NavigationView {
                 HStack{
-                    NavigationLink(destination: StoreView()){
+                    NavigationLink(destination: StoreView(timesClicked: .constant(10))){
                         Text("Store")
                     }
                     
                     NavigationLink(destination: SwiftUIView()) { Text("Credits")
-                        .navigationBarTitle("CookieClicker")}
+                    }
                 }
             }
             .navigationViewStyle(StackNavigationViewStyle())
