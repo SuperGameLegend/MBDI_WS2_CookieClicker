@@ -29,6 +29,7 @@ struct ContentView: View {
                 HStack{
                     NavigationLink(destination: StoreView(timesClicked: .constant(10))){
                         Text("Store")
+                        
                     }
                     
                     NavigationLink(destination: SwiftUIView()) { Text("Credits")
